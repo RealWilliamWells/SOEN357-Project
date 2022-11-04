@@ -6,3 +6,4 @@
 - Nicolas Towa Kamgne - 40154685
 
 ## Description
+A subcription tracker application that will track multiple subsciprtions a user has.
