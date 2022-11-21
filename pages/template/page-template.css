@@ -1,6 +1,9 @@
 /* Header changes that are specifci to page */
 .header-icon {
     left: 116px;
+    width: 44px;
+    height: 44px;
+    top: 6px;
 }
 
 .header-text {

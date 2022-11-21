@@ -1,0 +1,36 @@
+/* Header changes that are specifci to page */
+.header-icon {
+    width: 33px;
+    height: 33px;
+    left: 13px;
+    top: 12px;
+}
+
+.header-text {
+    left: 58px;
+}
+
+/* Footer changes that are specific to page */
+#selected-option {
+  left: 97.5px;
+}
+
+/* Page styling */
+.service-name-text {
+    position: absolute;
+    width: 161.85px;
+    height: 24px;
+    left: 32px;
+    top: 132px;
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.006em;
+
+    color: #000000;
+}
