@@ -1,0 +1,74 @@
+.footer {
+  position: fixed;
+  width: 390px;
+  height: 63px;
+  bottom: 0px;
+  background: #D9D9D9;
+}
+
+#selected-option {
+  position: fixed;
+  width: 97.5px;
+  height: 63px;
+  left: 0px;
+  bottom: 0px;
+
+  background: #B2B2B2;
+}
+
+.footer-options-icons {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    bottom: 15px;
+}
+
+#home-option-icon {
+    left: 27px;
+}
+
+#add-option-icon {
+    left: 124px;
+}
+
+#edit-option-icon {
+    left: 221px;
+}
+
+#settings-option-icon {
+    left: 319px;
+}
+
+.footer-options-text {
+    position: fixed;
+    width: 28px;
+    height: 24px;
+    bottom: -5px;
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    /* identical to box height, or 218% */
+
+    letter-spacing: -0.006em;
+
+    color: #000000;
+}
+
+#home-option-text {
+    left: 35px;
+}
+
+#add-option-text {
+    left: 125px;
+}
+
+#edit-option-text {
+    left: 222px;
+}
+
+#settings-option-text {
+    left: 322px;
+}

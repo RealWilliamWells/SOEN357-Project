@@ -1,0 +1,13 @@
+/* Header changes that are specifci to page */
+.header-icon {
+    left: 116px;
+}
+
+.header-text {
+    left: 170px;
+}
+
+/* Footer changes that are specific to page */
+#selected-option {
+  left: 0px;
+}
