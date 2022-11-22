@@ -1,0 +1,55 @@
+/* Header changes that are specific to page */
+.header-icon {
+    width: 33px;
+    height: 33px;
+    left: 13px;
+    top: 12px;
+}
+
+.header-text {
+    left: 58px;
+}
+
+/* Footer changes that are specific to page */
+#selected-option {
+  left: 195px;
+}
+
+/* edit-sub page */
+.delete-button {
+    position: absolute;
+    width: 216px;
+    height: 42px;
+    left: 86px;
+    top: 580px;
+
+    background: #D84242;
+    border-radius: 9px;
+}
+
+.delete-text {
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 95px;
+    top: 588px;
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+
+.cancel-button {
+    top: 635px !important;
+}
+
+.cancel-text {
+    top: 643px !important;
+}
