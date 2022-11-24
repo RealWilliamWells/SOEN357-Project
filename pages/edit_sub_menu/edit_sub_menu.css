@@ -1,0 +1,86 @@
+/* Header changes that are specific to page */
+.header-icon {
+    width: 33px;
+    height: 33px;
+    left: 13px;
+    top: 12px;
+}
+
+.header-text {
+    left: 53px;
+}
+
+/* Footer changes that are specific to page */
+#selected-option {
+  left: 195px;
+}
+
+/* page specific styling */
+#title-text {
+    position: absolute;
+    width: 312px;
+    height: 24px;
+    left: 37px;
+    top: 129px;
+
+    font-family: 'Baloo Bhai 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+    /* identical to box height, or 67% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.006em;
+
+    color: #000000;
+}
+
+#menu-item-0 > .menu-item-box {
+    left: 15px;
+    top: 172px;
+
+    background: linear-gradient(90deg, rgba(246, 153, 27, 0.6) 0%, #FCFCF7 100%);
+}
+
+#menu-item-0 > .menu-item-box > .menu-item-icon {
+    background: url('../home/image-13.png');
+    background-size: cover;
+}
+
+#menu-item-0 > .menu-item-box > .menu-item-title {
+    top: 16px;
+}
+
+#menu-item-0 > .menu-item-box > .menu-item-cost {
+    top: 5px;
+}
+
+#menu-item-0 > .menu-item-box > .menu-item-time-left {
+    top: 29px;
+}
+
+#menu-item-1 > .menu-item-box {
+    left: 15px;
+    top: 242px;
+
+    background: linear-gradient(90deg, #B142E6 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+#menu-item-1 > .menu-item-box > .menu-item-icon {
+    background: url('../home/image-14.png');
+    background-size: cover;
+}
+
+#menu-item-1 > .menu-item-box > .menu-item-title {
+    top: 16px;
+}
+
+#menu-item-1 > .menu-item-box > .menu-item-cost {
+    top: 5px;
+}
+
+#menu-item-1 > .menu-item-box > .menu-item-time-left {
+    top: 29px;
+}

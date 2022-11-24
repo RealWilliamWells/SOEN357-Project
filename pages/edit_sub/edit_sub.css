@@ -7,7 +7,7 @@
 }
 
 .header-text {
-    left: 58px;
+    left: 53px;
 }
 
 /* Footer changes that are specific to page */
@@ -21,7 +21,7 @@
     width: 216px;
     height: 42px;
     left: 86px;
-    top: 580px;
+    top: 635px;
 
     background: #D84242;
     border-radius: 9px;
@@ -32,7 +32,7 @@
     width: 198px;
     height: 24px;
     left: 95px;
-    top: 588px;
+    top: 643px;
 
     font-family: 'Assistant';
     font-style: normal;
@@ -46,10 +46,57 @@
     color: #FFFFFF;
 }
 
+.add-sub-button {
+    top: 580px !important;
+}
+
+.add-sub-text {
+    top: 588px !important;
+}
+
 .cancel-button {
-    top: 635px !important;
+    top: 690px !important;
 }
 
 .cancel-text {
-    top: 643px !important;
+    top: 698px !important;
+}
+
+.put-on-hold-checkbox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 24px;
+    height: 24px;
+
+    top: 518px;
+    left: 34px;
+}
+
+.put-on-hold-text {
+    position: absolute;
+    width: 164px;
+    height: 24px;
+
+    /* Body 1/Normal */
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* Gray / 700 */
+
+    color: #616161;
+
+    top: 521px;
+    left: 71px;
 }

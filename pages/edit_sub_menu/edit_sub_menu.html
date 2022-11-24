@@ -6,7 +6,7 @@
 
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png">
 
-    <link rel="stylesheet" href="edit_sub.css">
+    <link rel="stylesheet" href="edit_sub_menu.css">
 
     <link rel="stylesheet" href="../../shared/header.css">
 
@@ -28,24 +28,26 @@
                 </div>
             </div>
 
-            <div class="sub-form-parent">
-                <script src="../../shared/sub-form/attach-sub-form.js"></script>
+            <div id="title-text">
+                Active&nbspSubscriptions
             </div>
 
-            <button class="delete-button">
-            </button>
-            <div class="delete-text">
-                Delete&nbspSubscription
+            <div class="menu-item-parents" id="menu-item-0">
             </div>
 
-            <div class="add-sub-text">
-                Edit&nbspSubscription
+            <div class="menu-item-parents" id="menu-item-1">
             </div>
 
-            <input type="checkbox" class="put-on-hold-checkbox">
-            <div class="put-on-hold-text">
-                Put&nbspSubscription&nbspOn&nbspHold
-            </div>
+            <script src="../../shared/sub-item-entry/attach-menu-item.js">
+            </script>
+
+            <script>
+                $('#menu-item-0 > .menu-item-box > .menu-item-ending-soon-icon')[0].style.visibility="visible"
+
+                $('#menu-item-1 > .menu-item-box > .menu-item-title')[0].innerHTML='Twitch Prime';
+                $('#menu-item-1 > .menu-item-box > .menu-item-cost')[0].innerHTML='$4.99/month';
+                $('#menu-item-1 > .menu-item-box > .menu-item-time-left')[0].innerHTML='5 days remaining';
+            </script>
 
             <div id="dummy-elem-for-scrolling" style="visibility: hidden; position: absolute; top: 750px;">
                 meme
