@@ -1,6 +1,6 @@
 $('.menu-item-parents').append(
     "<link rel=\"stylesheet\" href=\"../../shared/sub-item-entry/menu-item.css\">\n" +
-    "<div class=\"menu-item-box\" id=\"item-0\">\n" +
+    "<a class=\"menu-item-box\" id=\"item-0\" href='https://www.audible.com/account'>\n" +
     "     <svg class=\"menu-item-ending-soon-icon\" width=\"18\" height=\"26\" viewBox=\"0 0 18 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n" +
     "<rect width=\"18\" height=\"26\" fill=\"url(#pattern0)\"/>\n" +
     "<defs>\n" +
@@ -14,5 +14,5 @@ $('.menu-item-parents').append(
     "     <div class=\"menu-item-title\">Audible</div>\n" +
     "     <div class=\"menu-item-cost\">$12.99/month</div>\n" +
     "     <div class=\"menu-item-time-left\">2&nbspdays&nbspremaining</div>\n" +
-    "</div>"
+    "</a>"
 );

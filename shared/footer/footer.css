@@ -15,6 +15,25 @@
   background: #B2B2B2;
 }
 
+.selectable-option {
+  position: fixed;
+  width: 97.5px;
+  height: 63px;
+  bottom: 0px;
+}
+
+#add-option-selectable {
+    left: 97.5px;
+}
+
+#edit-option-selectable {
+    left: 195px;
+}
+
+#settings-option-selectable {
+    left: 292.5px;
+}
+
 .footer-options-icons {
     position: fixed;
     width: 44px;

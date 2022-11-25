@@ -191,6 +191,16 @@
     border-radius: 9px;
 }
 
+.add-sub-button > a {
+    position: absolute;
+    width: 216px;
+    height: 42px;
+    left: -2px;
+    top: -2px;
+
+    border-radius: 9px;
+}
+
 .add-sub-text {
     position: absolute;
     width: 173px;
